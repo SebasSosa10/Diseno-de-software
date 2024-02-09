@@ -1,0 +1,45 @@
+git init inicializador de git
+git status para saber el estatus de git
+git add para añadir el git
+git commit "mensaje" para hacer un checkpoint
+git log para saber el hitorial de commit guardados
+git config --local significa que la configuracion solo va hacer para este proyecto
+git  config --global siginifica que la cofiguracion de este git va hacer global para todos los proyecto que hagamos
+git config --local user.name "nombre del usuario"
+git config --local user.email "cambiar email"
+mkdir para crear carpetas
+cd ..  para devolverse en las carpetas
+git init --bare para crear copias seguras
+que solo contienen modificaciones de los archivos
+git remote lista los servidores que hayamos creado
+git remote add (nombre de servidor)  para agregar repositorios
+git remote -v nos muestra la direcion del servidor
+festch lugar donde se obtiene la informacion
+push lugar donde se envia informacion
+git clone direcion de servidor   para que otra persona clone nuestro servidor  para tener una conecion con el repositorio
+git push para emujar o enviar archivos  ejemplo: servidorlocal master
+git branch nombre, para crear una nueva rama
+git checkout nombre de la rama para cambiar de rama
+git merge [nombre de la rama ]
+
+El merge junta los trabajos y genera un merge.commit. eL rebase aplica los commits de otra branch en la branch actual
+
+git restore para devolver codigo
+
+git restore --staged <file> para de volverse de un  git add
+
+git revert (codigo del funete del commit que deseamos cambiar) hace un nuevo commit desaciendo el anterior
+
+Que es posible ver qué cambios se hicieron en cada archivo, con el comando git diff;
+
+Que, al escribir solo git diff, vemos los cambios en nuestros archivos que no se agregaron para commit (con git add);
+
+Que es posible comparar cambios entre dos ramas con git diff <branch1> .. <branch2>
+
+Que es posible comparar los cambios realizados entre un commit y otro, usando el comando git diff <commit1> .. <commit2>;
+
+Que Git nos permite guardar “marcos” de nuestra aplicación, por ejemplo, generando versiones, a través de git tag;
+
+Que el comando git tag -a se usa para generar una nueva tag;
+
+Las Releases de GitHub, que son generadas para cada tag de Git que creamos en nuestro repositorio.
